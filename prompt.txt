@@ -1,87 +1,92 @@
-# HelpHub – Customer Support Knowledge Base Website Prompt
-
-Generate a **static website** called **"HelpHub – Customer Support Knowledge Base"** with the following files and structure:
+I want you to generate a full static website called "HelpHub – Customer Support Knowledge Base". The website should be ready to host on GitHub Pages, fully static, responsive, and internally linked. Include all the files described below. 
 
 ---
 
-## 1. `index.html` (Homepage)
-
-- **Title:** "HelpHub – Customer Support Knowledge Base"
-- **Navigation bar** with links: `FAQs`, `Product Guides`, `Policies`, `Blog`
-- **Hero section** with:
-  - Big headline
-  - Subheadline
-  - Fake search bar (non-functional)
-- **"Explore HelpHub" section** with cards linking to each main page
-- **Footer** with dummy contact info and placeholder social links
+### 1. index.html (Homepage)
+- Title: "HelpHub – Customer Support Knowledge Base"
+- Navigation bar with links: FAQs, Product Guides, Policies, Blog
+- Hero section: Big headline, subheadline, fake search bar (non-functional)
+- "Explore HelpHub" section with cards linking to each main page (FAQs, Guides, Policies, Blog)
+- Footer with dummy contact info and placeholder social links
 
 ---
 
-## 2. `faq.html` (FAQ Page)
-
-- Same **header/nav** and **footer** as `index.html`
-- **Page banner (mini-hero)** with:
-  - Heading: `FAQs`
-  - Short description
-- **FAQs content:**
-  - At least **20 FAQs**
-  - Use `<h2>` for questions
-  - Use `<p>` for 2–3 paragraph answers
-  - Topics: account setup, password reset, payments, shipping, refunds, tracking orders, etc.
+### 2. faq.html (FAQ Page)
+- Same header/nav + footer as index.html
+- Page banner with "FAQs" heading and a short description
+- 10 meaningful FAQs using <h2> for the question and <p> for 2–3 paragraph answers. Topics: account setup, password reset, payments, shipping, refunds, tracking orders, etc.
 
 ---
 
-## 3. `guides.html` (Product Guides)
-
-- Same **header/nav** and **footer**
-- **Page banner** with heading: `Product Guides`
-- Include at least **3 guides** with structured content:
-  1. "Getting Started with Product X"
-  2. "Troubleshooting Connectivity Issues"
-  3. "Advanced Tips"
-- Use `<h2>`, `<h3>`, `<p>`, and `<ul>` for structured formatting
+### 3. guides.html (Product Guides)
+- Same header/nav + footer
+- Page banner with "Product Guides" heading
+- At least 3 guides with structured content:
+  1. Getting Started with Product X
+  2. Troubleshooting Connectivity Issues
+  3. Advanced Tips
+- Use <h2>, <h3>, <p>, and <ul> for structured formatting
 
 ---
 
-## 4. `policies.html` (Policies Page)
+### 4. policies.html (Policies Page)
+- Same header/nav + footer
+- Page banner with "Policies" heading
+- Include Refund Policy, Privacy Policy, Shipping Policy, each 3–4 paragraphs long
 
-- Same **header/nav** and **footer**
-- **Page banner** with heading: `Policies`
+---
+
+### 5. blog.html (Blog Page)
+- Same header/nav + footer
+- Page banner with "Blog" heading
+- Include 3 dummy blog posts with catchy titles (~400 words each)
+- Use <h2>, <small> for metadata, <p> for content
+
+---
+
+### 6. style.css
+- Global reset and modern font: Segoe UI
+- Blue theme (#004aad primary, #007bff gradient)
+- Responsive navigation bar
+- Hero section styling for homepage
+- Page banner styling for other pages
+- Card grid styling for homepage
+- Readable content containers for FAQs, guides, policies, blog
+- Responsive design for mobile/tablet
+
+---
+
+### 7. sitemap.xml
 - Include:
-  - **Refund Policy**
-  - **Privacy Policy**
-  - **Shipping Policy**
-- Each policy should be 3–4 paragraphs long
+  / 
+  /faq.html 
+  /guides.html 
+  /policies.html 
+  /blog.html
 
 ---
 
-## 5. `blog.html` (Blog Page)
-
-- Same **header/nav** and **footer**
-- **Page banner** with heading: `Blog`
-- Include at least **3 dummy blog posts**:
-  - Catchy titles
-  - ~400 words each
-  - Use `<h2>` for titles, `<small>` for metadata, `<p>` for content
+### 8. robots.txt
+- Allow all user agents
+- Reference sitemap.xml
 
 ---
 
-## 6. `style.css`
-
-- **Global reset** and modern font: Segoe UI
-- **Blue theme:** 
-  - Primary: `#004aad`
-  - Gradient: `#007bff`
-- Responsive **navigation bar**
-- **Hero section** styling for homepage
-- **Page banner** section styling for non-home pages
-- **Card grid** styling for homepage
-- **Readable content containers** for FAQs, guides, policies, blog
-- Fully **responsive design** for mobile and tablet
+### 9. README.md
+- Project overview
+- Folder structure
+- Features
+- GitHub Pages deployment instructions:
+  1. Create a repository
+  2. Upload files
+  3. Enable GitHub Pages from main branch / root folder
+  4. Website URL format
+- Contact info
 
 ---
 
-## 7. `sitemap.xml`
-
-Include URLs:
-
+### Instructions:
+- All internal links must be relative.
+- Website must be fully static, ready for GitHub Pages hosting.
+- Provide the complete content for all pages, including meaningful FAQs and dummy blog posts.
+- Output each file in full, with proper HTML structure.
