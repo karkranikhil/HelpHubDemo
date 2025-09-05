@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://yourusername.github.io/HelpHub/sitemap.xml
+Sitemap: https://karkranikhil.github.io//HelpHub/sitemap.xml
