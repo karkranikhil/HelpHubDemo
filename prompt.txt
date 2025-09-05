@@ -1,0 +1,87 @@
+# HelpHub – Customer Support Knowledge Base Website Prompt
+
+Generate a **static website** called **"HelpHub – Customer Support Knowledge Base"** with the following files and structure:
+
+---
+
+## 1. `index.html` (Homepage)
+
+- **Title:** "HelpHub – Customer Support Knowledge Base"
+- **Navigation bar** with links: `FAQs`, `Product Guides`, `Policies`, `Blog`
+- **Hero section** with:
+  - Big headline
+  - Subheadline
+  - Fake search bar (non-functional)
+- **"Explore HelpHub" section** with cards linking to each main page
+- **Footer** with dummy contact info and placeholder social links
+
+---
+
+## 2. `faq.html` (FAQ Page)
+
+- Same **header/nav** and **footer** as `index.html`
+- **Page banner (mini-hero)** with:
+  - Heading: `FAQs`
+  - Short description
+- **FAQs content:**
+  - At least **20 FAQs**
+  - Use `<h2>` for questions
+  - Use `<p>` for 2–3 paragraph answers
+  - Topics: account setup, password reset, payments, shipping, refunds, tracking orders, etc.
+
+---
+
+## 3. `guides.html` (Product Guides)
+
+- Same **header/nav** and **footer**
+- **Page banner** with heading: `Product Guides`
+- Include at least **3 guides** with structured content:
+  1. "Getting Started with Product X"
+  2. "Troubleshooting Connectivity Issues"
+  3. "Advanced Tips"
+- Use `<h2>`, `<h3>`, `<p>`, and `<ul>` for structured formatting
+
+---
+
+## 4. `policies.html` (Policies Page)
+
+- Same **header/nav** and **footer**
+- **Page banner** with heading: `Policies`
+- Include:
+  - **Refund Policy**
+  - **Privacy Policy**
+  - **Shipping Policy**
+- Each policy should be 3–4 paragraphs long
+
+---
+
+## 5. `blog.html` (Blog Page)
+
+- Same **header/nav** and **footer**
+- **Page banner** with heading: `Blog`
+- Include at least **3 dummy blog posts**:
+  - Catchy titles
+  - ~400 words each
+  - Use `<h2>` for titles, `<small>` for metadata, `<p>` for content
+
+---
+
+## 6. `style.css`
+
+- **Global reset** and modern font: Segoe UI
+- **Blue theme:** 
+  - Primary: `#004aad`
+  - Gradient: `#007bff`
+- Responsive **navigation bar**
+- **Hero section** styling for homepage
+- **Page banner** section styling for non-home pages
+- **Card grid** styling for homepage
+- **Readable content containers** for FAQs, guides, policies, blog
+- Fully **responsive design** for mobile and tablet
+
+---
+
+## 7. `sitemap.xml`
+
+Include URLs:
+
