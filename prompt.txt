@@ -1,9 +1,9 @@
-I want you to generate a full static website called "HelpHub – Customer Support Knowledge Base". The website should be ready to host on GitHub Pages, fully static, responsive, and internally linked. Include all the files described below. 
+I want you to generate a full static website called "HelpHub – Salesforce Knowledge Base". The website should be fully static, internally linked, responsive, and ready to host on GitHub Pages. Include **all files** described below. All content should be Salesforce-themed and meaningful.
 
 ---
 
 ### 1. index.html (Homepage)
-- Title: "HelpHub – Customer Support Knowledge Base"
+- Title: "HelpHub – Salesforce Knowledge Base"
 - Navigation bar with links: FAQs, Product Guides, Policies, Blog
 - Hero section: Big headline, subheadline, fake search bar (non-functional)
 - "Explore HelpHub" section with cards linking to each main page (FAQs, Guides, Policies, Blog)
@@ -13,8 +13,9 @@ I want you to generate a full static website called "HelpHub – Customer Suppor
 
 ### 2. faq.html (FAQ Page)
 - Same header/nav + footer as index.html
-- Page banner with "FAQs" heading and a short description
-- 10 meaningful FAQs using <h2> for the question and <p> for 2–3 paragraph answers. Topics: account setup, password reset, payments, shipping, refunds, tracking orders, etc.
+- Page banner with "FAQs" heading and short description
+- 10 meaningful Salesforce FAQs using <h2> for the question and <p> for 2–3 paragraph answers
+- Example topics: account setup, password reset, Salesforce Lightning, reports & dashboards, Flow automation, user permissions, data import, record tracking, integration, customer support
 
 ---
 
@@ -22,30 +23,37 @@ I want you to generate a full static website called "HelpHub – Customer Suppor
 - Same header/nav + footer
 - Page banner with "Product Guides" heading
 - At least 3 guides with structured content:
-  1. Getting Started with Product X
+  1. Getting Started with Salesforce
   2. Troubleshooting Connectivity Issues
-  3. Advanced Tips
+  3. Advanced Tips for Admins and Users
 - Use <h2>, <h3>, <p>, and <ul> for structured formatting
+- Content should be meaningful and Salesforce-related
 
 ---
 
 ### 4. policies.html (Policies Page)
 - Same header/nav + footer
 - Page banner with "Policies" heading
-- Include Refund Policy, Privacy Policy, Shipping Policy, each 3–4 paragraphs long
+- Include 3 policies: 
+  1. Salesforce Data Privacy Policy
+  2. Salesforce Usage Policy
+  3. Salesforce Refund & Service Policy
+- Each policy 3–4 paragraphs long, meaningful and realistic
 
 ---
 
 ### 5. blog.html (Blog Page)
 - Same header/nav + footer
 - Page banner with "Blog" heading
-- Include 3 dummy blog posts with catchy titles (~400 words each)
-- Use <h2>, <small> for metadata, <p> for content
+- Include 3 meaningful Salesforce blog posts, ~400 words each
+- Use <h2> for titles, <small> for metadata, <p> for content
+- Topics: Lightning productivity, data management tips, automation best practices
 
 ---
 
 ### 6. style.css
-- Global reset and modern font: Segoe UI
+- Global reset
+- Modern font: Segoe UI
 - Blue theme (#004aad primary, #007bff gradient)
 - Responsive navigation bar
 - Hero section styling for homepage
@@ -58,10 +66,10 @@ I want you to generate a full static website called "HelpHub – Customer Suppor
 
 ### 7. sitemap.xml
 - Include:
-  / 
-  /faq.html 
-  /guides.html 
-  /policies.html 
+  /
+  /faq.html
+  /guides.html
+  /policies.html
   /blog.html
 
 ---
@@ -82,11 +90,13 @@ I want you to generate a full static website called "HelpHub – Customer Suppor
   3. Enable GitHub Pages from main branch / root folder
   4. Website URL format
 - Contact info
+- All instructions should be Salesforce-themed and realistic
 
 ---
 
 ### Instructions:
-- All internal links must be relative.
-- Website must be fully static, ready for GitHub Pages hosting.
-- Provide the complete content for all pages, including meaningful FAQs and dummy blog posts.
-- Output each file in full, with proper HTML structure.
+- All internal links must be relative
+- Website must be fully static and ready for GitHub Pages hosting
+- Provide **complete content for all pages**, including FAQs, guides, policies, and blog posts
+- Output each file in **full**, with proper HTML structure and formatting
+- Ensure content is meaningful, professional, and tailored around Salesforce usage, best practices, and administration
